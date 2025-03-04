@@ -23,12 +23,12 @@ const account = privateKeyToAccount(formattedPrivateKey);
 
 const client = createWalletClient({
   chain: baseSepolia,
-  transport: http("https://sepolia-preconf.base.org"),
+  transport: http("https://sepolia.base.org"),
 });
 
 const clientPublic = createPublicClient({
   chain: baseSepolia,
-  transport: http("https://sepolia-preconf.base.org"),
+  transport: http("https://sepolia.base.org"),
 });
 
 const go = async () => {
